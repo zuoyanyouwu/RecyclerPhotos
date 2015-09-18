@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="Base.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <!-- Action Mode Style -->
+        <item name="actionModeStyle">@style/ActionMode</item>
+        <item name="actionModeBackground">@color/action_mode_background</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeCloseDrawable">@mipmap/ic_action_mode_close</item>
+
+    </style>
+
+    <style name="Theme.AppTheme" parent="Base.Theme">
+    </style>
+
+    <style name="OverFlow" parent="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@mipmap/ic_overflow_black</item>
+    </style>
+
+    <style name="ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextStyle">@style/ActionModeTitleStyle</item>
+    </style>
+
+    <style name="ActionModeTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

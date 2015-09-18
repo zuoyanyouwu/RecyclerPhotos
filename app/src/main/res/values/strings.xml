@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerPhotos</string>
+
+    <string name="menu_gallery_select">选择</string>
+
+    <string name="action_gallery_select_all">全选</string>
+
+</resources>

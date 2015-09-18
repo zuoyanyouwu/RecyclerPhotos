@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme -->
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">#3F000000</color>
+    <color name="colorAccent">#0266cb</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="action_mode_background">#00ABF2</color>
+    <color name="toolbar_text_color_black">#BE000000</color>
+
+    <!-- Gallery -->
+    <color name="photo_item_bg">#f5f5f5</color>
+    <color name="photo_item_image_bg">#d8d8d8</color>
+
+</resources>
