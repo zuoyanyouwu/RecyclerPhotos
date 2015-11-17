@@ -9,4 +9,11 @@
         app:showAsAction="ifRoom"
         />
 
+    <item
+        android:id="@+id/action_gallery_select_del"
+        android:title="@string/action_gallery_select_del"
+        android:icon="@mipmap/ic_photo_del"
+        app:showAsAction="ifRoom"
+        />
+
 </menu>

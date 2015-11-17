@@ -4,5 +4,9 @@
     <string name="menu_gallery_select">选择</string>
 
     <string name="action_gallery_select_all">全选</string>
+    <string name="action_gallery_select_del">删除</string>
+
+    <string name="gallery_activity">Recycler Photos</string>
+    <string name="gallery_group_activity">Recycler Group Photos</string>
 
 </resources>
